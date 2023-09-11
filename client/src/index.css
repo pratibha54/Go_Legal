@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-01{
+position: absolute;
+width: 300px;
+height: 238px;
+top: 0;
+background-color: rgb(22, 235, 33);
+filter : blur(175px);
+}
+
+.gradient-02{
+  position: absolute;
+  width: 300px;
+  height: 238px;
+  top: -1rem;
+  right :20px;
+  background-color: rgb(233, 104, 13);
+  filter : blur(175px);
+  }
+
+  .gradient-03{
+    position: absolute;
+    width: 300px;
+    height: 238px;
+    top: -1rem;
+    right :600px;
+    background-color: white;
+    filter : blur(175px);
+    }
