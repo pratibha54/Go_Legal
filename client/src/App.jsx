@@ -1,5 +1,6 @@
 
 import './App.css'
+import GoLegal from './componets/GoLegal'
 
 function App() {
   
@@ -15,10 +16,12 @@ function App() {
       <div className='gradient-03 z-0 absolute '></div>
 
       {/* header */}
-      <div className='uppercase font-bold text-2xl  text-center mb-3'>Go Legal</div>
+      <div className = 'uppercase font-bold text-2xl  text-center mb-3'>Go Legal</div>
 
       {/* body */}
-      <div>body</div>
+      <div>
+        <GoLegal/>
+      </div>
      
       {/* input */}
       <div>input</div>
