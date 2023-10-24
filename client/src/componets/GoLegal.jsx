@@ -6,16 +6,16 @@ const GoLegal = () => {
         
 
         {/* client message */}
-        <div className='border-[#999999]'>
-            <pre>
-               <span>hello</span>
+        <div className='border-[#999999] break-words border-2 rounded-xl self-end px-3 py-3 max-w-[80%]'>
+            <pre className='whitespace-pre-wrap'>
+               <span>hello my name is pratibha </span>
             </pre>
         </div>
 
         {/* AI message */}
-        <div>
+        <div className={'border-[#999999] break-words border-2 rounded-xl self-end px-3 py-3 max-w-[80%]'}>
             <pre>
-               <span></span>
+               <span>hello my name is sunita </span>
             </pre>
         </div>
     </div>
