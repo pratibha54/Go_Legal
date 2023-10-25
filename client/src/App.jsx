@@ -19,13 +19,14 @@ function App() {
       <div className = 'uppercase font-bold text-2xl  text-center mb-3'>Go Legal</div>
 
       {/* body */}
-      <div>
+      <div className='h-[90%] overflow-auto w-full max-w-4xl min-w-[20rem] py-8 px-4 self-center'>
         <GoLegal/>
       </div>
      
       {/* input */}
-      <div>input</div>
-      
+      <div className='w-full max-w-4xl min-w-[20rem] self-center'>
+        <chatinput/>
+        </div>  
     </div>
   )
 }
